@@ -22,7 +22,7 @@ const password = "muscat";
 if (username !== correctUsername ){
     console.log(`User not found.`);
 }
-if (username === correctUsername && password !== correctPassword ){
+else if (username === correctUsername && password !== correctPassword ){
     console.log(`Wrong password`);
 }
 else {
