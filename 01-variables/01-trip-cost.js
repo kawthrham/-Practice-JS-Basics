@@ -15,3 +15,14 @@
 //   Fuel cost: 20 OMR
 
 // your code here
+
+const distance = 1000;
+const fuelPer100km = 8;
+const fuelPrice = 0.25; 
+
+const LitersNeeded = (distance / 100) * fuelPer100km;
+const FuelCost = LitersNeeded * fuelPrice;
+
+console.log(`Liters need =  ${LitersNeeded} L`)
+console.log(` Total fuel cost =  ${FuelCost} OMR`)
+
